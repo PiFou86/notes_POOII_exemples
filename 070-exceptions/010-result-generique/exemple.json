@@ -1,0 +1,1 @@
+{"id":"CH07-E01","titre":"Résultat d'opération générique","chapitre":"070-exceptions","sectionLatex":"sec:csharp-exceptions","type":"console","notions":["Result<T>","refus métier"],"projets":["ResultGenerique.csproj"],"projetExecutable":"ResultGenerique.csproj","portable":true,"statut":"valide"}

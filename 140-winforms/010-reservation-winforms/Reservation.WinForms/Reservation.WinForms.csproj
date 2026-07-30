@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.10" />
+    <ProjectReference Include="../../../130-architecture-couches/010-reservation-bout-en-bout/Reservation.Application/Reservation.Application.csproj" />
+    <ProjectReference Include="../../../130-architecture-couches/010-reservation-bout-en-bout/Reservation.Infrastructure/InfrastructureReservations.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+{"id":"CH10-E01","titre":"Sérialiser en JSON et XML","chapitre":"100-fichiers-structures","sectionLatex":"sec:depot-fichiers","type":"console","notions":["JSON","XML","sérialisation"],"projets":["JsonXml.csproj"],"projetExecutable":"JsonXml.csproj","portable":true,"statut":"valide"}

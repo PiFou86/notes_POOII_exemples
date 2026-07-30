@@ -1,0 +1,12 @@
+{
+  "id": "CH13-E02",
+  "titre": "Distinguer POCO, DTO et ViewModel",
+  "chapitre": "130-architecture-couches",
+  "sectionLatex": "sec:poco-dto-viewmodel",
+  "type": "console",
+  "notions": ["POCO", "DTO", "ViewModel", "entité", "conversion"],
+  "projets": ["RolesArchitecture.csproj"],
+  "projetExecutable": "RolesArchitecture.csproj",
+  "portable": true,
+  "statut": "valide"
+}

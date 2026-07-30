@@ -1,0 +1,1 @@
+{"id":"CH11-E02","titre":"CQS, SOLID et métriques de dépendances","chapitre":"110-principes-conception-qualite","sectionLatex":"sec:metriques-ca-ce-i","type":"console","notions":["KISS","DRY","WET","CQS","STUPID","SOLID","LSP","Ca","Ce","I"],"projets":["QualiteConception.csproj"],"projetExecutable":"QualiteConception.csproj","portable":true,"statut":"valide"}

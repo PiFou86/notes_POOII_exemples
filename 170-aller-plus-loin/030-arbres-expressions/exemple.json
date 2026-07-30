@@ -1,0 +1,18 @@
+{
+  "id": "CH17-E03",
+  "titre": "Arbre d'expression",
+  "chapitre": "170-aller-plus-loin",
+  "sectionLatex": "chap:aller-plus-loin",
+  "type": "console",
+  "notions": [
+    "arbre d'expression",
+    "Expression<TDelegate>",
+    "ExpressionVisitor"
+  ],
+  "projets": [
+    "ArbresExpressions.csproj"
+  ],
+  "projetExecutable": "ArbresExpressions.csproj",
+  "portable": true,
+  "statut": "valide"
+}

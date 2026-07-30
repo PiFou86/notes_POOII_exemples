@@ -1,0 +1,1 @@
+{"id":"CH11-E01","titre":"Objet Courriel et traitement KISS","chapitre":"110-principes-conception-qualite","sectionLatex":"sec:objet-valeur","type":"console","notions":["objet de valeur","invariant","égalité par valeur","KISS","DRY"],"projets":["CourrielKissDry.csproj"],"projetExecutable":"CourrielKissDry.csproj","portable":true,"statut":"valide"}

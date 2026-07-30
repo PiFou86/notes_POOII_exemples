@@ -1,0 +1,621 @@
+[
+  {
+    "id": "CH01-E01",
+    "titre": "Propriété C# 14 avec field",
+    "chapitre": "010-rappels-poo-vocabulaire",
+    "sectionLatex": "chap:rappels-poo",
+    "type": "console",
+    "notions": [
+      "propriété",
+      "field",
+      "validation"
+    ],
+    "projets": [
+      "ProprieteField.csproj"
+    ],
+    "projetExecutable": "ProprieteField.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH01-E02",
+    "titre": "Objets, encapsulation, héritage UI et polymorphisme",
+    "chapitre": "010-rappels-poo-vocabulaire",
+    "sectionLatex": "chap:rappels-poo",
+    "type": "console",
+    "notions": [
+      "classe",
+      "objet",
+      "état",
+      "comportement",
+      "identité",
+      "encapsulation",
+      "invariant",
+      "précondition",
+      "postcondition",
+      "copie de collection",
+      "héritage UI",
+      "polymorphisme"
+    ],
+    "projets": [
+      "RappelsPoo.csproj"
+    ],
+    "projetExecutable": "RappelsPoo.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH02-E01",
+    "titre": "Classe abstraite, interface et composition",
+    "chapitre": "020-abstractions-interfaces-polymorphisme",
+    "sectionLatex": "chap:abstractions-interfaces",
+    "type": "console",
+    "notions": [
+      "classe abstraite",
+      "interface",
+      "polymorphisme",
+      "composition"
+    ],
+    "projets": [
+      "AbstractionsComposition.csproj"
+    ],
+    "projetExecutable": "AbstractionsComposition.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH03-E01",
+    "titre": "Diagrammes UML sans projet artificiel",
+    "chapitre": "030-diagrammes-classes",
+    "sectionLatex": "chap:diagrammes-classes",
+    "type": "diagramme",
+    "notions": [
+      "UML",
+      "Mermaid",
+      "association",
+      "agrégation",
+      "composition",
+      "héritage",
+      "réalisation",
+      "dépendance"
+    ],
+    "projets": [],
+    "portable": true,
+    "statut": "documentation"
+  },
+  {
+    "id": "CH04-E01",
+    "titre": "Structure, compilation, exécution et publication",
+    "chapitre": "040-introduction-csharp",
+    "sectionLatex": "chap:prise-en-main-csharp",
+    "type": "console",
+    "notions": [
+      "solution",
+      "projet",
+      "ProjectReference",
+      "dotnet build",
+      "dotnet run",
+      "dotnet publish"
+    ],
+    "projets": [
+      "BibliothequeSalutations/BibliothequeSalutations.csproj",
+      "ApplicationConsole/ApplicationConsole.csproj"
+    ],
+    "projetExecutable": "ApplicationConsole/ApplicationConsole.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH05-E01",
+    "titre": "Types, tableaux, égalité, opérateurs et indexeur",
+    "chapitre": "050-csharp-essentiel",
+    "sectionLatex": "sec:csharp-surcharge-methodes",
+    "type": "console",
+    "notions": [
+      "types valeur et référence",
+      "tableaux",
+      "chaînes",
+      "Equals",
+      "GetHashCode",
+      "surcharge de méthodes",
+      "redéfinition d'opérateurs",
+      "indexeur",
+      "nullabilité",
+      "ternaire",
+      "coalescence nulle"
+    ],
+    "projets": [
+      "CSharpEssentiel.csproj"
+    ],
+    "projetExecutable": "CSharpEssentiel.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH06-E01",
+    "titre": "Collections, lambdas, LINQ, validation et IDisposable",
+    "chapitre": "060-csharp-moderne-outils",
+    "sectionLatex": "chap:csharp-moderne",
+    "type": "console",
+    "notions": [
+      "collections",
+      "Func",
+      "Action",
+      "lambda",
+      "LINQ",
+      "SingleOrDefault",
+      "Skip",
+      "Take",
+      "exécution différée",
+      "DataAnnotations",
+      "Validator",
+      "IDisposable"
+    ],
+    "projets": [
+      "CSharpModerne.csproj"
+    ],
+    "projetExecutable": "CSharpModerne.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH07-E01",
+    "titre": "Résultat d'opération générique",
+    "chapitre": "070-exceptions",
+    "sectionLatex": "sec:csharp-exceptions",
+    "type": "console",
+    "notions": [
+      "Result<T>",
+      "refus métier"
+    ],
+    "projets": [
+      "ResultGenerique.csproj"
+    ],
+    "projetExecutable": "ResultGenerique.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH07-E02",
+    "titre": "Exceptions personnalisées, causes et messages sécuritaires",
+    "chapitre": "070-exceptions",
+    "sectionLatex": "sec:csharp-exceptions",
+    "type": "console",
+    "notions": [
+      "exception technique",
+      "exception métier anormale",
+      "exception personnalisée",
+      "InnerException",
+      "message utilisateur",
+      "journalisation"
+    ],
+    "projets": [
+      "ExceptionsMessages.csproj"
+    ],
+    "projetExecutable": "ExceptionsMessages.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH08-E01",
+    "titre": "Salutation et dépôt configurables avec le conteneur .NET",
+    "chapitre": "080-injection-dependances",
+    "sectionLatex": "chap:injection-dependances",
+    "type": "configuration",
+    "notions": [
+      "injection par constructeur",
+      "IConfiguration",
+      "IOptions<T>",
+      "appsettings.json",
+      "variables d'environnement",
+      "Docker",
+      "HostApplicationBuilder",
+      "AddScoped",
+      "CreateScope",
+      "GetRequiredService",
+      "libération des services",
+      "dépôt de produits configurable"
+    ],
+    "projets": [
+      "InjectionConfiguration.csproj"
+    ],
+    "projetExecutable": "InjectionConfiguration.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH09-E01",
+    "titre": "Questionnaire testé avec xUnit, Moq et FluentAssertions",
+    "chapitre": "090-tests-unitaires-doublures",
+    "sectionLatex": "sec:test-unitaires",
+    "type": "tests",
+    "notions": [
+      "AAA",
+      "fantôme",
+      "bouchon",
+      "substitut",
+      "espion",
+      "simulacre",
+      "xUnit",
+      "Moq",
+      "FluentAssertions",
+      "Verify",
+      "VerifyGet",
+      "VerifyNoOtherCalls"
+    ],
+    "projets": [
+      "Questionnaire/Questionnaire.csproj",
+      "Questionnaire.Tests/Questionnaire.Tests.csproj"
+    ],
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH10-E01",
+    "titre": "Sérialiser en JSON et XML",
+    "chapitre": "100-fichiers-structures",
+    "sectionLatex": "sec:depot-fichiers",
+    "type": "console",
+    "notions": [
+      "JSON",
+      "XML",
+      "sérialisation"
+    ],
+    "projets": [
+      "JsonXml.csproj"
+    ],
+    "projetExecutable": "JsonXml.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH10-E02",
+    "titre": "Dépôts JSON et YAML avec configuration typée",
+    "chapitre": "100-fichiers-structures",
+    "sectionLatex": "sec:depot-fichiers",
+    "type": "configuration",
+    "notions": [
+      "Repository",
+      "JSON",
+      "YAML",
+      "YamlDotNet",
+      "IOptions<T>",
+      "DTO de persistance"
+    ],
+    "projets": [
+      "DepotsFichiers.csproj"
+    ],
+    "projetExecutable": "DepotsFichiers.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH11-E01",
+    "titre": "Objet Courriel et traitement KISS",
+    "chapitre": "110-principes-conception-qualite",
+    "sectionLatex": "sec:objet-valeur",
+    "type": "console",
+    "notions": [
+      "objet de valeur",
+      "invariant",
+      "égalité par valeur",
+      "KISS",
+      "DRY"
+    ],
+    "projets": [
+      "CourrielKissDry.csproj"
+    ],
+    "projetExecutable": "CourrielKissDry.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH11-E02",
+    "titre": "CQS, SOLID et métriques de dépendances",
+    "chapitre": "110-principes-conception-qualite",
+    "sectionLatex": "sec:metriques-ca-ce-i",
+    "type": "console",
+    "notions": [
+      "KISS",
+      "DRY",
+      "WET",
+      "CQS",
+      "STUPID",
+      "SOLID",
+      "LSP",
+      "Ca",
+      "Ce",
+      "I"
+    ],
+    "projets": [
+      "QualiteConception.csproj"
+    ],
+    "projetExecutable": "QualiteConception.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH12-E01",
+    "titre": "Strategy pour calculer un rabais",
+    "chapitre": "120-patrons-conception",
+    "sectionLatex": "chap:patrons-conception",
+    "type": "console",
+    "notions": [
+      "Strategy",
+      "OCP",
+      "rabais"
+    ],
+    "projets": [
+      "Strategy.csproj"
+    ],
+    "projetExecutable": "Strategy.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH12-E02",
+    "titre": "Observer avec event et IObservable",
+    "chapitre": "120-patrons-conception",
+    "sectionLatex": "chap:patrons-conception",
+    "type": "console",
+    "notions": [
+      "Observer",
+      "event",
+      "IObservable<T>"
+    ],
+    "projets": [
+      "Observer.csproj"
+    ],
+    "projetExecutable": "Observer.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH12-E03",
+    "titre": "Deux variantes de la chaîne de responsabilité",
+    "chapitre": "120-patrons-conception",
+    "sectionLatex": "chap:patrons-conception",
+    "type": "console",
+    "notions": [
+      "Chain of Responsibility",
+      "premier maillon capable",
+      "pipeline",
+      "chaînage"
+    ],
+    "projets": [
+      "ChainResponsabilite.csproj"
+    ],
+    "projetExecutable": "ChainResponsabilite.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH12-E04",
+    "titre": "Trois implantations explicites du Singleton",
+    "chapitre": "120-patrons-conception",
+    "sectionLatex": "chap:patrons-conception",
+    "type": "console",
+    "notions": [
+      "Singleton",
+      "création fainéante",
+      "double lock",
+      "création avide",
+      "concurrence"
+    ],
+    "projets": [
+      "SingletonDoubleVerification.csproj"
+    ],
+    "projetExecutable": "SingletonDoubleVerification.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH12-E05",
+    "titre": "Repository, Factory Method, Builder et MVC",
+    "chapitre": "120-patrons-conception",
+    "sectionLatex": "chap:patrons-conception",
+    "type": "console",
+    "notions": [
+      "Repository",
+      "Factory Method",
+      "Builder",
+      "MVC"
+    ],
+    "projets": [
+      "PatronsApplicatifs.csproj"
+    ],
+    "projetExecutable": "PatronsApplicatifs.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH12-E06",
+    "titre": "Comparer MVC Web et MVVM",
+    "chapitre": "120-patrons-conception",
+    "sectionLatex": "sec:mvc-mvvm",
+    "type": "console",
+    "notions": [
+      "MVC Web",
+      "MVVM",
+      "ViewModel",
+      "INotifyPropertyChanged"
+    ],
+    "projets": [
+      "PatronsPresentation.csproj"
+    ],
+    "projetExecutable": "PatronsPresentation.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH13-E01",
+    "titre": "Créer une réservation de bout en bout",
+    "chapitre": "130-architecture-couches",
+    "sectionLatex": "sec:architecture-exemple-bout-en-bout",
+    "type": "architecture",
+    "notions": [
+      "Présentation",
+      "Application",
+      "Domaine",
+      "Infrastructure",
+      "agrégat",
+      "Result<T>",
+      "IOptions<T>",
+      "HostApplicationBuilder",
+      "ports et adaptateurs",
+      "tarification"
+    ],
+    "projets": [
+      "Reservation.Console/Reservation.Console.csproj",
+      "Reservation.Application/Reservation.Application.csproj",
+      "Reservation.Domaine/Reservation.Domaine.csproj",
+      "Reservation.Infrastructure/InfrastructureReservations.csproj",
+      "Reservation.Tests/Reservation.Tests.csproj",
+      "Reservation.Validation/Reservation.Validation.csproj"
+    ],
+    "projetExecutable": "Reservation.Console/Reservation.Console.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH13-E02",
+    "titre": "Distinguer POCO, DTO et ViewModel",
+    "chapitre": "130-architecture-couches",
+    "sectionLatex": "sec:poco-dto-viewmodel",
+    "type": "console",
+    "notions": [
+      "POCO",
+      "DTO",
+      "ViewModel",
+      "entité",
+      "conversion"
+    ],
+    "projets": [
+      "RolesArchitecture.csproj"
+    ],
+    "projetExecutable": "RolesArchitecture.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH14-E01",
+    "titre": "WinForms comme couche de présentation",
+    "chapitre": "140-winforms",
+    "sectionLatex": "chap:winforms",
+    "type": "winforms",
+    "notions": [
+      "WinForms",
+      "Form",
+      "nomenclature des contrôles",
+      "mise en page adaptable",
+      "DTO",
+      "commande Application",
+      "racine de composition",
+      "injection de dépendances"
+    ],
+    "projets": [
+      "Reservation.WinForms/Reservation.WinForms.csproj"
+    ],
+    "projetExecutable": "Reservation.WinForms/Reservation.WinForms.csproj",
+    "portable": false,
+    "statut": "windows-seulement"
+  },
+  {
+    "id": "CH15-E01",
+    "titre": "Commandes Git et fichiers de démonstration",
+    "chapitre": "150-git-github",
+    "sectionLatex": "chap:git-github",
+    "type": "documentation",
+    "notions": [
+      "Git",
+      "GitHub",
+      "branche",
+      "commit",
+      "fusion",
+      "conflit",
+      "pull request",
+      "gitignore"
+    ],
+    "projets": [],
+    "portable": true,
+    "statut": "documentation"
+  },
+  {
+    "id": "CH16-E01",
+    "titre": "Extraits destinés à la revue de code",
+    "chapitre": "160-revue-code",
+    "sectionLatex": "chap:revue-code",
+    "type": "contre-exemple",
+    "notions": [
+      "revue de code",
+      "commentaires",
+      "pull request",
+      "contre-exemple"
+    ],
+    "projets": [],
+    "portable": true,
+    "statut": "documentation"
+  },
+  {
+    "id": "CH17-E01",
+    "titre": "Dépôt générique et lecture asynchrone",
+    "chapitre": "170-aller-plus-loin",
+    "sectionLatex": "sec:generiques",
+    "type": "console",
+    "notions": [
+      "génériques",
+      "contraintes",
+      "IAsyncEnumerable<T>",
+      "CancellationToken"
+    ],
+    "projets": [
+      "GeneriquesAsynchrones.csproj"
+    ],
+    "projetExecutable": "GeneriquesAsynchrones.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH17-E02",
+    "titre": "Réflexion, Task et ValueTask",
+    "chapitre": "170-aller-plus-loin",
+    "sectionLatex": "chap:aller-plus-loin",
+    "type": "console",
+    "notions": [
+      "réflexion",
+      "Type",
+      "PropertyInfo",
+      "Activator",
+      "Task",
+      "Task<T>",
+      "async",
+      "await",
+      "CancellationToken",
+      "ValueTask<T>"
+    ],
+    "projets": [
+      "NotionsAvancees.csproj"
+    ],
+    "projetExecutable": "NotionsAvancees.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH17-E03",
+    "titre": "Arbre d'expression",
+    "chapitre": "170-aller-plus-loin",
+    "sectionLatex": "chap:aller-plus-loin",
+    "type": "console",
+    "notions": [
+      "arbre d'expression",
+      "Expression<TDelegate>",
+      "ExpressionVisitor"
+    ],
+    "projets": [
+      "ArbresExpressions.csproj"
+    ],
+    "projetExecutable": "ArbresExpressions.csproj",
+    "portable": true,
+    "statut": "valide"
+  }
+]

@@ -1,0 +1,1 @@
+{"id":"CH12-E03","titre":"Deux variantes de la chaîne de responsabilité","chapitre":"120-patrons-conception","sectionLatex":"chap:patrons-conception","type":"console","notions":["Chain of Responsibility","premier maillon capable","pipeline","chaînage"],"projets":["ChainResponsabilite.csproj"],"projetExecutable":"ChainResponsabilite.csproj","portable":true,"statut":"valide"}

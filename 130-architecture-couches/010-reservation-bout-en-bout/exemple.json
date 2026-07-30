@@ -1,0 +1,19 @@
+{
+  "id": "CH13-E01",
+  "titre": "Créer une réservation de bout en bout",
+  "chapitre": "130-architecture-couches",
+  "sectionLatex": "sec:architecture-exemple-bout-en-bout",
+  "type": "architecture",
+  "notions": ["Présentation", "Application", "Domaine", "Infrastructure", "agrégat", "Result<T>", "IOptions<T>", "HostApplicationBuilder", "ports et adaptateurs", "tarification"],
+  "projets": [
+    "Reservation.Console/Reservation.Console.csproj",
+    "Reservation.Application/Reservation.Application.csproj",
+    "Reservation.Domaine/Reservation.Domaine.csproj",
+    "Reservation.Infrastructure/InfrastructureReservations.csproj",
+    "Reservation.Tests/Reservation.Tests.csproj",
+    "Reservation.Validation/Reservation.Validation.csproj"
+  ],
+  "projetExecutable": "Reservation.Console/Reservation.Console.csproj",
+  "portable": true,
+  "statut": "valide"
+}

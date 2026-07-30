@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Editeurs et environnements de developpement
+.idea/
+.vscode/
+.vs/
+*.user
+*.suo
+*.swp
+*.swo
+*~
+
+# Sorties temporaires des projets .NET
+**/bin/
+**/obj/
+
+# Resultats de tests et de couverture
+**/TestResults/
+**/coverage/
+*.trx
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# Caches Python produits par les scripts
+**/__pycache__/
+*.py[cod]
+
+# Fichiers temporaires generiques
+*.tmp
+*.temp
+*.bak

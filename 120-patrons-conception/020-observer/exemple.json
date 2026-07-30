@@ -1,0 +1,1 @@
+{"id":"CH12-E02","titre":"Observer avec event et IObservable","chapitre":"120-patrons-conception","sectionLatex":"chap:patrons-conception","type":"console","notions":["Observer","event","IObservable<T>"],"projets":["Observer.csproj"],"projetExecutable":"Observer.csproj","portable":true,"statut":"valide"}

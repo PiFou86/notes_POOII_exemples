@@ -1,0 +1,12 @@
+{
+  "id": "CH12-E06",
+  "titre": "Comparer MVC Web et MVVM",
+  "chapitre": "120-patrons-conception",
+  "sectionLatex": "sec:mvc-mvvm",
+  "type": "console",
+  "notions": ["MVC Web", "MVVM", "ViewModel", "INotifyPropertyChanged"],
+  "projets": ["PatronsPresentation.csproj"],
+  "projetExecutable": "PatronsPresentation.csproj",
+  "portable": true,
+  "statut": "valide"
+}

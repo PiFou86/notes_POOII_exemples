@@ -1,0 +1,1 @@
+{"id":"CH10-E02","titre":"Dépôts JSON et YAML avec configuration typée","chapitre":"100-fichiers-structures","sectionLatex":"sec:depot-fichiers","type":"configuration","notions":["Repository","JSON","YAML","YamlDotNet","IOptions<T>","DTO de persistance"],"projets":["DepotsFichiers.csproj"],"projetExecutable":"DepotsFichiers.csproj","portable":true,"statut":"valide"}

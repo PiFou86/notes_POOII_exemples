@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ApplicationConsole/ApplicationConsole.csproj" />
+  <Project Path="BibliothequeSalutations/BibliothequeSalutations.csproj" />
+</Solution>

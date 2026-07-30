@@ -1,0 +1,1 @@
+{"id":"CH17-E01","titre":"Dépôt générique et lecture asynchrone","chapitre":"170-aller-plus-loin","sectionLatex":"sec:generiques","type":"console","notions":["génériques","contraintes","IAsyncEnumerable<T>","CancellationToken"],"projets":["GeneriquesAsynchrones.csproj"],"projetExecutable":"GeneriquesAsynchrones.csproj","portable":true,"statut":"valide"}
