@@ -102,11 +102,18 @@ def verifier(contenus):
     for fichier_cs in sorted(RACINE.glob("**/*.cs")):
         if "bin" in fichier_cs.parts or "obj" in fichier_cs.parts:
             continue
-        types = declaration.findall(fichier_cs.read_text(encoding="utf-8"))
+        contenu = fichier_cs.read_text(encoding="utf-8")
+        types = declaration.findall(contenu)
         if len(types) > 1:
             erreurs.append(f"{fichier_cs}: plusieurs types publics nommés : {types}")
-        if fichier_cs.name == "Program.cs" and types:
-            erreurs.append(f"{fichier_cs}: Program.cs contient un type public nommé : {types}")
+        if fichier_cs.name == "Program.cs":
+            if types and types != ["Program"]:
+                erreurs.append(f"{fichier_cs}: Program.cs contient un autre type public : {types}")
+            if not re.search(r"\bclass\s+Program\b", contenu) or not re.search(
+                r"\bstatic\s+(?:async\s+)?(?:void|int|Task(?:<int>)?)\s+Main\s*\(",
+                contenu,
+            ):
+                erreurs.append(f"{fichier_cs}: une classe Program et une méthode Main explicites sont requises")
         if len(types) == 1 and fichier_cs.stem != types[0]:
             erreurs.append(f"{fichier_cs}: le fichier devrait porter le nom {types[0]}.cs")
     attendu = index(contenus)

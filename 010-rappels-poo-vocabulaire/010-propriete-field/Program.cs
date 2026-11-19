@@ -1,24 +1,30 @@
-Produit produit = new Produit();
-produit.Nom = " Clavier ";
-
-if (produit.Nom != "Clavier")
+public static class Program
 {
-    throw new InvalidOperationException("Le nom devrait être normalisé.");
-}
+    public static void Main(string[] args)
+    {
+        Produit produit = new Produit();
+        produit.Nom = " Clavier ";
 
-bool nomVideRefuse = false;
-try
-{
-    produit.Nom = " ";
-}
-catch (ArgumentException)
-{
-    nomVideRefuse = true;
-}
+        if (produit.Nom != "Clavier")
+        {
+            throw new InvalidOperationException("Le nom devrait être normalisé.");
+        }
 
-if (!nomVideRefuse)
-{
-    throw new InvalidOperationException("Un nom vide aurait dû être refusé.");
-}
+        bool nomVideRefuse = false;
+        try
+        {
+            produit.Nom = " ";
+        }
+        catch (ArgumentException)
+        {
+            nomVideRefuse = true;
+        }
 
-Console.Out.WriteLine("Validation réussie.");
+        if (!nomVideRefuse)
+        {
+            throw new InvalidOperationException("Un nom vide aurait dû être refusé.");
+        }
+
+        Console.Out.WriteLine("Validation réussie.");
+    }
+}

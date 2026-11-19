@@ -4,6 +4,11 @@ Ce répertoire regroupe les exemples autonomes tirés des notes de cours. Les
 notes LaTeX demeurent la source principale; les projets servent à vérifier que
 le code présenté compile et produit le comportement annoncé.
 
+Les programmes déclarent explicitement leur classe `Program` et leur méthode
+`Main`. Les exemples asynchrones emploient `async Task Main(string[] args)`.
+Le fichier `Program.cs` contient le point d'entrée et le scénario de
+démonstration; les autres types nommés ont chacun leur fichier.
+
 ## Trouver un exemple
 
 - consulter [l'index](INDEX_EXEMPLES.md);
