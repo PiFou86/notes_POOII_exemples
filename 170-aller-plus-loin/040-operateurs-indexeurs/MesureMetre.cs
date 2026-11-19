@@ -28,4 +28,9 @@ public readonly struct MesureMetre
 
         return new MesureMetre(gauche.Valeur - droite.Valeur);
     }
+
+    public override string ToString()
+    {
+        return $"{Valeur} m";
+    }
 }

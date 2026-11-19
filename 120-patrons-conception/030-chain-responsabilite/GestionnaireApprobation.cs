@@ -1,12 +1,6 @@
 public abstract class GestionnaireApprobation
 {
-    private GestionnaireApprobation? m_suivant;
-
-    public GestionnaireApprobation? Suivant
-    {
-        get => m_suivant;
-        set => m_suivant = value;
-    }
+    public GestionnaireApprobation? Suivant { get; set; }
 
     public void Traiter(Demande demande)
     {
@@ -17,13 +11,13 @@ public abstract class GestionnaireApprobation
             return;
         }
 
-        if (m_suivant is null)
+        if (Suivant is null)
         {
             throw new InvalidOperationException(
                 "Aucun gestionnaire ne peut traiter la demande.");
         }
 
-        m_suivant.Traiter(demande);
+        Suivant.Traiter(demande);
     }
 
     protected abstract bool PeutTraiter(Demande demande);

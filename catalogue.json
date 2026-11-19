@@ -1,23 +1,5 @@
 [
   {
-    "id": "CH01-E01",
-    "titre": "Propriété C# 14 avec field",
-    "chapitre": "010-rappels-poo-vocabulaire",
-    "sectionLatex": "chap:rappels-poo",
-    "type": "console",
-    "notions": [
-      "propriété",
-      "field",
-      "validation"
-    ],
-    "projets": [
-      "ProprieteField.csproj"
-    ],
-    "projetExecutable": "ProprieteField.csproj",
-    "portable": true,
-    "statut": "valide"
-  },
-  {
     "id": "CH01-E02",
     "titre": "Objets, encapsulation, héritage UI et polymorphisme",
     "chapitre": "010-rappels-poo-vocabulaire",
@@ -106,28 +88,64 @@
     "statut": "valide"
   },
   {
-    "id": "CH05-E01",
-    "titre": "Types, tableaux, égalité, opérateurs et indexeur",
-    "chapitre": "050-csharp-essentiel",
-    "sectionLatex": "sec:csharp-surcharge-methodes",
+    "id": "CH04-E02",
+    "titre": "Types, chaînes, tableaux et conditions",
+    "chapitre": "040-introduction-csharp",
+    "sectionLatex": "sec:csharp-syntaxe-base",
     "type": "console",
     "notions": [
-      "types valeur et référence",
-      "tableaux",
+      "types courants",
       "chaînes",
-      "Equals",
-      "GetHashCode",
-      "surcharge de méthodes",
-      "redéfinition d'opérateurs",
-      "indexeur",
+      "tableaux",
+      "index et plages",
+      "conditions",
+      "boucles",
       "nullabilité",
       "ternaire",
       "coalescence nulle"
     ],
     "projets": [
-      "CSharpEssentiel.csproj"
+      "SyntaxeBase.csproj"
     ],
-    "projetExecutable": "CSharpEssentiel.csproj",
+    "projetExecutable": "SyntaxeBase.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH05-E01",
+    "titre": "Valeurs, références, égalité et surcharge",
+    "chapitre": "050-csharp-essentiel",
+    "sectionLatex": "sec:csharp-surcharge-methodes",
+    "type": "console",
+    "notions": [
+      "types valeur et référence",
+      "Equals",
+      "GetHashCode",
+      "ToString",
+      "surcharge de méthodes"
+    ],
+    "projets": [
+      "TypesObjets.csproj"
+    ],
+    "projetExecutable": "TypesObjets.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH05-E02",
+    "titre": "Propriété C# 14 avec field",
+    "chapitre": "050-csharp-essentiel",
+    "sectionLatex": "sec:csharp-field",
+    "type": "console",
+    "notions": [
+      "propriété",
+      "field",
+      "validation"
+    ],
+    "projets": [
+      "ProprieteField.csproj"
+    ],
+    "projetExecutable": "ProprieteField.csproj",
     "portable": true,
     "statut": "valide"
   },
@@ -615,6 +633,25 @@
       "ArbresExpressions.csproj"
     ],
     "projetExecutable": "ArbresExpressions.csproj",
+    "portable": true,
+    "statut": "valide"
+  },
+  {
+    "id": "CH17-E04",
+    "titre": "Redéfinition d'opérateurs et indexeur",
+    "chapitre": "170-aller-plus-loin",
+    "sectionLatex": "sec:operateurs-indexeurs",
+    "type": "console",
+    "notions": [
+      "redéfinition d'opérateurs",
+      "operator",
+      "indexeur",
+      "validation des index"
+    ],
+    "projets": [
+      "OperateursIndexeurs.csproj"
+    ],
+    "projetExecutable": "OperateursIndexeurs.csproj",
     "portable": true,
     "statut": "valide"
   }
